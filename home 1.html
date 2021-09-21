@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+header {
+  text-align: center;
+  background-color: #A9A9A9;
+}
+article {
+  background-color: #696969;
+  height: 400px;
+  float: left;
+  padding: 20px;
+  width: 97%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #808080;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h1>PEMROGRAMAN WEB</h1>
+<ul>
+  <li><a class="active" href="#Layout 2">Home</a></li>
+  <li><a href="miafrom.html">Daftar</a></li>
+  <li><a href="kolom.html">Presensi</a></li>
+</ul>
+</ul>
+</header>
+<section>
+  <article>
+    <img src="laptop 22.jpg" width="500">
+    <h1>Pemrograman Web</h1>
+    <p>Pemrograman Web adalah Proses atau Cara untuk menjalankan intruksi pada sebuah komputer yang terhubung ke internet untuk membuat fungsi atau tugas tertentu. ... dan dalam menjalanan sebuah program di dalam web itu melaui web browser seperti : mozilla, Opera, Chrome, dll.</p>
+  </article>
+</section>
+<footer>
+  <p>Created by MIA AVITA R <br> XII RPL 2</p>
+</footer>
+</body>
+</html>
